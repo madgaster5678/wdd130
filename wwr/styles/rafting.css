@@ -121,16 +121,14 @@ h2 {
     left: 20px;
     right: 20px;
     padding: 15px;
-    background-color: rgba(240, 255, 240, .9);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    background-color: var(--accent2-color);
 }
 
 .hero article img {
+    float: right;
     width: 125px;
     height: auto;
+    margin-left: 20px;
 }
 
 .history {
@@ -140,6 +138,7 @@ h2 {
     justify-content: space-between;
     margin-top: 20px;
     padding: 20px;
+    background-color: var(--accent2-color);
 }
 
 .history h2 {
