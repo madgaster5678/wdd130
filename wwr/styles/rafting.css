@@ -397,3 +397,11 @@ textarea {
     font-size: 72;
     width: 100%;
 }
+
+.trips h1 {
+    position: static;
+    background-color: transparent;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+}
