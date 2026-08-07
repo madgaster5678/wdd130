@@ -335,3 +335,65 @@ textarea {
     padding: 5px;
     text-align: center;
 }
+
+.trips .trips-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    background-color: var(--accent2-color);
+}
+
+.trips .trips-images article {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.trips .trips-images img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.trips .trips-images figure {
+    margin: 0 auto;
+}
+
+.trips .trips-images figcaption {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    margin-top: 10px;
+}
+
+.trips table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+.trips th,
+.trips td {
+    border: 3px dashed var(--primary-color);
+    padding: 10px;
+}
+
+.trips th {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+}
+
+.trips .description {
+    text-align: left;
+    width: 40%;
+}
+
+.trips h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    font-size: 72;
+    width: 100%;
+}
